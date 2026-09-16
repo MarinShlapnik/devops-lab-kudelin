@@ -76,7 +76,8 @@ wget: bad address 'node-exporter:9100'
 
 При этом сам Node Exporter продолжал корректно работать и отдавать метрики через `localhost:9100`.
 
-![Проверка Node Exporter](screen1_docker_ps.png)
+![Проверка Node Exporter](screen1_node_exporter.png)
+
 
 ### 3. Запуск Prometheus
 
