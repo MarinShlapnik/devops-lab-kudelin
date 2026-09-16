@@ -27,6 +27,7 @@ Date of finished: 16.09.2026
 ```bash
 docker --version
 docker run hello-world
+
 ![Docker version и hello-world](screen1_docker_version.png)
 
 
