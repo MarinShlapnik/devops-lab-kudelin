@@ -58,7 +58,7 @@ curl --version
  
 **Результат:** Ubuntu образ успешно скачан, curl установлен и работает корректно внутри контейнера.
  
-![Проверка версии curl в Ubuntu контейнере](../../screen2_curl_version.png)
+![Проверка версии curl в Ubuntu контейнере](screen2_curl_version.png)
  
 ---
  
@@ -77,7 +77,7 @@ docker run -d -p 8080:80 --name web-server nginx:alpine
 - `nginx:alpine` — использование легкой версии на базе Alpine Linux
 **Результат:** Nginx успешно запущен и доступен по адресу `http://localhost:8080`.
  
-![Nginx в браузере](../../screen3_nginx_browser.png)
+![Nginx в браузере](screen3_nginx_browser.png)
  
 ---
  
@@ -110,7 +110,7 @@ cat /data/test.txt
  
 **Результат:** Данные успешно сохранились в томе и доступны для нового контейнера. Это демонстрирует правильную работу персистентного хранилища.
  
-![Тестирование томов Docker](../../screen4_volume_test.png)
+![Тестирование томов Docker](screen4_volume_test.png)
  
 ---
  
@@ -175,7 +175,7 @@ docker build -t my-flask-app .
  
 **Результат:** Образ `my-flask-app` успешно собран со всеми слоями.
  
-![Сборка Docker образа](../../screen5_docker_build.png)
+![Сборка Docker образа](screen5_docker_build.png)
  
 #### 5.3 Запуск контейнера
  
@@ -187,7 +187,7 @@ curl http://localhost:5000
  
 **Результат:** Flask приложение успешно запущено в контейнере и отвечает на HTTP запросы.
  
-![Запущенный Flask контейнер](../../screen6_flask_container.png)
+![Запущенный Flask контейнер](screen6_flask_container.png)
  
  
 ---
