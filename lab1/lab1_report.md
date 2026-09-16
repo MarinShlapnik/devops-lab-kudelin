@@ -30,4 +30,3 @@ docker run hello-world
 
 ![Docker version и hello-world](screen1_docker_version.png)
 
-
