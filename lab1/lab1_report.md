@@ -41,7 +41,7 @@ docker run hello-world
  
 **Результат:** Docker успешно установлен, тестовый контейнер hello-world выполнен без ошибок.
  
-![Docker version и hello-world](../../screen1_docker_version.png)
+![Docker version и hello-world](screen1_docker_version.png)
  
 ---
  
