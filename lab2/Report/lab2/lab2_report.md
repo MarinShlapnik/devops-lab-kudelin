@@ -104,14 +104,14 @@ jobs:
 
 После пуша в ветку `main` пайплайн успешно выполнился:
 
-![Выполнение пайплайна](lab2/build_and_push.png)
+![Выполнение пайплайна](../../build_and_push.png)
 
 
 ### 5. Проверка Docker Hub
 
 Образ успешно появился в репозитории на Docker Hub:
 
-![Репозиторий на Docker Hub](lab2/Docker_hub_latests.png)
+![Репозиторий на Docker Hub](../../Docker_hub_latests.png)
 
 ---
 
