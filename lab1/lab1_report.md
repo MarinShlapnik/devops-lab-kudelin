@@ -24,7 +24,6 @@ Date of finished: 16.09.2026
 
 Проверка установки и запуск тестового контейнера:
 
-```bash
 docker --version
 docker run hello-world
 
