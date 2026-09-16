@@ -29,3 +29,12 @@ docker run hello-world
 
 ![Docker version и hello-world](screen1_docker_version.png)
 
+### 2. Работа с готовыми образами
+Скачивание Ubuntu и установка curl:
+docker pull ubuntu:latest
+docker run -it ubuntu bash
+apt update && apt install -y curl
+curl --version
+
+![Docker version и hello-world](screen2_curl_version.png)
+
